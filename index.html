@@ -26,15 +26,36 @@
       /* SOCIAL STYLES */
       .social-link {
         background: rgba(150, 150, 150, 0.5);
-        color: blue;
+        border-radius: 99px;
+        box-sizing: border-box;
+        color: #fff;
         display: inline-block;
-        height: 36px;
-        width: 36px;
+        font-family: helvetica, arial, sans;
+        font-size: 1rem;
+        font-weight: bold;
+        height: 2.5em;
+        line-height: 1;
+        padding-top: 0.85em;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 2.5em;
+      }
+      .social-list {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+      .social-list > li {
+        displaY: inline-block;
+        margin: 0 0.5em;
       }
 
       /* SECTION STYLES */
       .section-wrapper {
         font-size: 24px;
+        margin: auto;
+        max-width: 960px;
       }
       .section-wrapper::after {
         visibility: hidden;
@@ -45,15 +66,39 @@
         height: 0;
       }
       .section-box {
-        border: 1px solid black;
+        border: 2px solid #022273;
+        border-radius: 10px;
         box-sizing: border-box;
         float: left;
         font-size: 1rem;
+        margin: 40px 1% 0;
         padding: 2%;
-        width: 25%;
+        width: 23%;
       }
       .section-box h3 {
         font-size: 1.5em;
+        margin: 0 0 1em;
+        text-align: center;
+      }
+      .section-box img {
+        width: 100%;
+      }
+      .section-link {
+        background: #022273;
+        border-color: #000;
+        border-radius: 10px;
+        color: #e8edfa;
+        display: inline-block;
+        font-family: helvetica, arial, sans;
+        font-size: 0.9rem;
+        font-weight: bold;
+        height: 1.5em;
+        line-height: 1;
+        padding-top: 0.5em;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        width: 100%;
       }
       .section-text {
         font-size: 1em;
@@ -66,59 +111,63 @@
   <body>
     <div class="full-hero hero-home">
       <h1>Terry K.M. Cooper</h1>
-      <ul>
+      <ul class="social-list">
         <li>
-          <a href="https://twitter.com/tkmcooper" class="social-link">Twitter</a>
+          <a href="https://twitter.com/tkmcooper" class="social-link">Tw</a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/tkmcooper" class="social-link">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/tkmcooper" class="social-link">Li</a>
         </li>
         <li>
-          <a href="https://www.github.com/tkmcooper/" class="social-link">Link</a>
+          <a href="https://www.github.com/tkmcooper/" class="social-link">Gh</a>
         </li>
       </ul>
     </div>
     <h2>Who am I?</h2>
     <div class="section-wrapper">
       <div class="section-box">
+        <img src="https://placekitten.com/400/400">
         <h3>Blog</h3>
-        <a href="#" class="social-link">Link</a>
         <div class="section-text">
           <p>
-            Check out my latest <a href="#">blog</a> posts featuring thoughts and musings as
+            Check out my latest blog posts featuring thoughts and musings as
             well as updates about the trials and tribulations of my daily life!
           </p>
         </div>
+        <a href="#" class="section-link">Read My Blog</a>
       </div>
       <div class="section-box">
+        <img src="https://placekitten.com/400/400">
         <h3>Projects</h3>
-        <a href="#" class="social-link">Link</a>
         <div class="section-text">
           <p>
-            Have a look at some of the <a href="#">projects</a> (technical and non-technical) 
+            Have a look at some of the projects (technical and non-technical) 
             with which I keep myself busy.
           </p>
         </div>
+        <a href="#" class="section-link">Find Out More</a>
       </div>
       <div class="section-box">
+        <img src="https://placekitten.com/400/400">
         <h3>Gallery</h3>
-        <a href="#" class="social-link">Link</a>
         <div class="section-text">
           <p>
             I have been lucky enough to visit several wonderful places around the world. 
-            These are documented <a href="#">here</a> in my online photo album.
+            These are documented here in my online photo album.
           </p>
         </div>
+        <a href="#" class="section-link">See The Gallery</a>
       </div>
       <div class="section-box">
+        <img src="https://placekitten.com/400/400">
         <h3>Tomfoolery</h3>
-        <a href="#" class="social-link">Link</a>
         <div class="section-text">
           <p>
-            Stuff & Nonsense! Somee silly little apps I've created for amusement alongside jokes,
+            <strong>Stuff & Nonsense!</strong> Some silly little apps I've created for amusement alongside jokes,
             trivia and other random bits and pieces.
           </p>
         </div>
+        <a href="#" class="section-link">Dare You Enter?</a>
       </div>
     </div>
     <p>
