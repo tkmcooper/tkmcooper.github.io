@@ -8,12 +8,16 @@
 }
 .header-logo {
   box-sizing: border-box;
+  color: #e8edfa;
   display: block;
+  font-family: 'Lobster', cursive;
+  font-size: 1.25rem;
   height: 10vh;
-  padding-top: 10px;
+  padding-top: 3vh;
   position: relative;
   text-align: center;
-  width: 40vh;
+  text-decoration: none;
+  width: 25vh;
 }
 .header-logo img {
   width: 40vh;
@@ -58,10 +62,15 @@
   padding: 5vh 0 10vh;
   text-align: center;
 }
-.footer-logo img {
-  width: 40vh;
+.footer-logo {
+  color: #e8edfa;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
 }
 .footer h3 {
+  margin-top: 0.5em;
   color: #e8edfa;
   text-transform: uppercase;
 }
