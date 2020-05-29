@@ -11,13 +11,13 @@
   color: #e8edfa;
   display: block;
   font-family: 'Lobster', cursive;
-  font-size: 1.25rem;
+  font-size: 1.33rem;
   height: 10vh;
-  padding-top: 3vh;
+  padding: 3vh 1vh 0;
   position: relative;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
-  width: 25vh;
+  width: 200px;
 }
 .header-logo img {
   width: 40vh;
@@ -70,7 +70,7 @@
   text-decoration: none;
 }
 .footer h3 {
-  margin-top: 0.5em;
+  margin-top: 1em;
   color: #e8edfa;
   text-transform: uppercase;
 }
