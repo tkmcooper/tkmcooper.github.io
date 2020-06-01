@@ -149,7 +149,11 @@ p {
   text-align: center;
 }
 .section-box img {
+  height: 200px;
   width: 100%;
+  object-fit: cover;
+  /*border: 1px solid #022273;*/
+  border-radius: 15px;
 }
 .section-link {
   background: #022273;
