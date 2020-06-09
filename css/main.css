@@ -18,7 +18,7 @@
 .description {
   left: 50%;
   position: absolute;
-  top: 40%;
+  top: 50%;
   transform: translate(-50%, -55%);
   text-align: center;
 }
@@ -65,7 +65,7 @@
 
 /* FEATURE STYLES */
 .features {
-  margin: 4em auto;
+  margin: 2em auto;
   padding: 1em;
   position: relative;
 }
@@ -86,6 +86,18 @@
   width: 100%;
   object-fit: cover;
 }
+.features .btn {
+  background-color: #022273;
+  border: 1px solid #022273;
+  color: #f2f3fa;
+  margin-top: 20px;
+  width: 100%;
+}
+.features .btn:hover {
+  background-color: #f2f3fa;
+  border: 1px solid #022273;
+  color: #022273;
+}
 
 /* SOCIAL STYLES */
 .social-link {
@@ -105,12 +117,12 @@
   vertical-align: middle;
   width: 2.5em;
 }
-.social-list {
-  list-style: none;
-  padding: 0;
-  text-align: center;
+.social-link a {
+  color: #fff;
+  text-decoration: none;
 }
-.social-list > li {
-  displaY: inline-block;
-  margin: 0 0.5em;
+.social-link a:hover,
+.social-link a:active {
+  color: #fffc54;
+  text-decoration: none;
 }
