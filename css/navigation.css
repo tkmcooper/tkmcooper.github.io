@@ -4,7 +4,7 @@
 }
 .nav-link,
 .navbar-brand {
-  color: #e8edfa;
+  color: #fff;
   cursor: pointer;
 }
 .nav-link {
@@ -16,7 +16,8 @@ a.nav-link {
   text-decoration: none;
   text-transform: uppercase;
 }
-.nav-link:hover {
+.nav-link:hover,
+.navbar-brand:hover {
   color: #fffc54;
 }
 .navbar-collapse {

@@ -1,8 +1,62 @@
 /* GLOBAL STYLES */
+
+/* Landing Page */
 .header {
-  background-image: url('/images/blog.jpg');
-  background-color: #e8edfa;
+  /*background-image: url('/images/blog.jpg');*/
+  background-color: #f2f3fa;
   background-size: cover;
   background-position: center;
   position: relative;
+}
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h1 {
+  color: #000;
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
+  padding-bottom: 0.8rem;
+}
+.description p {
+  color: #022273;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  padding-top: 2.5em;
+}
+.description img {
+  margin: 2rem 0 0.8rem;
+  width: 25%;
+  border-radius: 99px;
+}
+
+/* SOCIAL STYLES */
+.social-link {
+  background: rgba(150, 150, 150, 0.5);
+  border-radius: 99px;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-family: helvetica, arial, sans;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 2.5em;
+  line-height: 1;
+  padding-top: 0.85em;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 2.5em;
+}
+.social-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.social-list > li {
+  displaY: inline-block;
+  margin: 0 0.5em;
 }
