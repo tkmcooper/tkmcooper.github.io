@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /:title
 ---
 
 This is my **first** test post!

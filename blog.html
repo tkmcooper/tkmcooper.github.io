@@ -1,0 +1,15 @@
+---
+layout: default
+title: Terry's Blog
+---
+
+<h1>The Thoughts of Terry...</h1>
+<p>Welcome to my blogspace. This where I will post thoughts, articles, updates or even amusing anecdotes that occur in my life! You have been warned...</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
