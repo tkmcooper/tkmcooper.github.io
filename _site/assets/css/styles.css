@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+nav {
+  float: right;
+}
+
 .pink {
   color:pink;
   font-size: 24px;
