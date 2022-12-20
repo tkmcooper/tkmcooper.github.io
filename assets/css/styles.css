@@ -1,3 +1,30 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Lora', serif;
+}
+p {
+  font-family: 'Lora', serif;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+}
+footer p {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+}
+footer li {
+  display: inline;
+}
+a img {
+  margin-right: 15px;
+}
+
+a.navbar-brand {
+  font-weight: bold;
+  font-style: italic;
+}
+
 .avatar {
 	border-radius: 50%;
   width: 35px;
@@ -17,4 +44,8 @@
 .pink {
   color:pink;
   font-size: 24px;
+}
+.intro-text {
+  text-align: center;
+  margin: 0% 15% 0% 15%;
 }
