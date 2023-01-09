@@ -15,11 +15,23 @@ footer p {
 }
 footer li {
   display: inline;
+  text-transform: uppercase;
 }
+
+footer li a {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
 a img {
   margin-right: 15px;
 }
 
+.nav-link {
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
 a.navbar-brand {
   font-weight: bold;
   font-style: italic;
