@@ -23,6 +23,7 @@ a.navbar-brand {
   font-weight: bold;
   font-style: italic;
   font-size: 22px;
+  font-family: 'Lora', serif;
 }
 
 /* Socials */
@@ -50,6 +51,7 @@ a.navbar-brand {
 .social-list {
   list-style: none;
   padding: 0;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -64,7 +66,7 @@ footer {
   padding: 3px;
 }
 footer li {
-  display: inline;
+  display: inline-block;
   text-transform: uppercase;
 }
 footer li a {
@@ -91,6 +93,9 @@ a img {
   font-style: italic;
   font-size: 22px;
 }
+.branding-colour {
+  color: #66b6d2;
+}
 .center {
   text-align: center;
 }
@@ -102,4 +107,5 @@ a img {
 .intro-text {
   text-align: center;
   margin: 0% 15% 0% 15%;
+  padding-top: 20px;
 }
