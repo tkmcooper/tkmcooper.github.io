@@ -25,6 +25,39 @@ a.navbar-brand {
   font-size: 22px;
 }
 
+/* Socials */
+.social-link {
+  background: rgba(0,0,0, 0.75);
+  border-radius: 99px;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 2.5em;
+  line-height: 1;
+  padding-top: 0.85em;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 2.5em;
+}
+.social-link:hover {
+  color: #66b6d2;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-list > li {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
 /* Footer */
 footer {
   text-align: center;
