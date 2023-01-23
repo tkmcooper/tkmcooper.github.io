@@ -5,6 +5,9 @@ h1,h2,h3,h4,h5,h6 {
 p {
   font-family: 'Lora', serif;
 }
+body {
+  background-color: #fdfcfa;
+}
 /*a {
   font-family: 'Lora', serif;
 }*/
@@ -24,6 +27,9 @@ a.navbar-brand {
   font-style: italic;
   font-size: 22px;
   font-family: 'Lora', serif;
+}
+.mynav {
+  background-color: #66b6d2;
 }
 
 /* Socials */
@@ -83,6 +89,7 @@ footer li a {
 .avatar-large {
   border-radius: 50%;
   width: 150px;
+  padding: 10px 10px;
 }
 a img {
   margin-right: 15px;
@@ -96,7 +103,7 @@ a img {
 .branding-colour {
   color: #66b6d2;
 }
-.center {
+.main-content {
   text-align: center;
 }
 .cp-text{ 
